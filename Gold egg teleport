@@ -1,0 +1,13 @@
+--Gold egg teleport
+local players = game:GetService("Players")
+
+
+local x, y, z = 83.807, 69.477, -142.149
+
+
+for _, player in ipairs(players:GetPlayers()) do
+local character = player.Character
+if character then
+character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x, y, z))
+end
+end
