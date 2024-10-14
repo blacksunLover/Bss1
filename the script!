@@ -28,7 +28,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/blacksunLover/Bss1/re
 Tab:AddButton({
 	Name = "Claim hive!",
 	Callback = function()
-loadstring('game:HttpGet(https://raw.githubusercontent.com/blacksunLover/Bss1/refs/heads/main/Claim%20Hive'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/blacksunLover/Bss1/refs/heads/main/Claim%20Hive'))()
   	end    
 })
 
