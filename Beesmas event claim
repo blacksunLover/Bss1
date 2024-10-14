@@ -1,0 +1,5 @@
+local args = {
+    [1] = "ReceiveXmas2024Boost"
+}
+
+game:GetService("ReplicatedStorage").Events.SelectNPCOption:FireServer(unpack(args))
